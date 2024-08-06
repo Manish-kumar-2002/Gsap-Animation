@@ -1,0 +1,142 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+.container{
+    max-width: 1600px;
+    padding: 0 20px;
+    margin: 0 auto;
+}
+.header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    padding: 20px 0;
+}
+.header .logo{
+    text-decoration: none;
+    font-size: 30px;
+    color: #fff;
+    text-transform: uppercase;
+}
+.menu{
+    display: flex;
+    align-items: center;
+    list-style: none;
+}
+.menu li{
+    margin-right: 45px;
+}
+.menu li:last-child{
+    margin-right: 0;
+}
+.menu a{
+    color: #fff;
+    text-decoration: none;
+    text-transform: capitalize;
+    font-size: 18px;
+}
+.social-links{
+    list-style: none;
+    display: flex;
+}
+.social-links li{
+    margin-left: 25px;
+    font-size: 20px;
+}
+.social-links li i{
+    color: #fff;
+}
+.header .container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.main{
+    min-height: 100vh;
+    background: linear-gradient( orangered , rgb(190, 42, 42));
+}
+.main .container{
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.main h1{
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 20vw;
+    letter-spacing: 1.5vw;
+    font-weight: 700;
+    position: relative;
+    z-index: 2;
+}
+#fanta{
+    position: absolute;
+    width: 60vw;
+    z-index: 3;
+    transition: all cubic-bezier(0.19, 1, 0.22, 1);
+}
+#orangeCut{
+    position: absolute;
+    top: 13%;
+    left: 34%;
+    transition: all cubic-bezier(0.19, 1, 0.22, 1);
+    z-index: 1;
+}
+#orange{
+    position: absolute;
+    top: 38%;
+    right: 1%;
+    transition: all cubic-bezier(0.19, 1, 0.22, 1);
+    z-index: 1;
+}
+#leaf{
+    position: absolute;
+    left: 6.2%;
+    transition: all cubic-bezier(0.19, 1, 0.22, 1);
+    top: 17.5%;
+    width: 11vw;
+}
+#leaf2{
+    position: absolute;
+    top: 0;
+    transition: all cubic-bezier(0.19, 1, 0.22, 1);
+    right: 0;
+    width: 13vw;
+}
+.two{
+    min-height: 100vh;
+    background-color: rgb(196, 98, 28);
+}
+.two .container{
+    display: flex;
+    min-height: 100vh;
+    align-items: center;
+}
+.two .left-block, .two .right-block{
+    width: 50%;
+}
+.two .right-block{
+    color: #fff;
+}
+.two h1{
+    font-size: 4vw;
+    margin-bottom: 30px;
+}
+.two p{
+    font-size: 20px;
+    line-height: 1.4;
+}
+.two .left-block{
+    position: relative;
+}
+.two .left-block svg{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
